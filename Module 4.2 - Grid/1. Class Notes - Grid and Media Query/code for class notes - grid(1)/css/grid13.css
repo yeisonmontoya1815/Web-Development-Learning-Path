@@ -1,0 +1,40 @@
+.item {
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 5fr 3fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-areas:  "header header header"
+                        "articles content ads" 
+                        "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: blueviolet;
+}
+
+.articles {
+  grid-area: articles;
+  background-color: cadetblue;
+}
+
+.content {
+  grid-area: content;
+  background-color: yellow;
+}
+
+.ads {
+  grid-area: ads;
+  background-color: pink;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: orange;
+}

@@ -1,0 +1,16 @@
+.item {
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.item3 {
+  grid-column: span 2;
+}

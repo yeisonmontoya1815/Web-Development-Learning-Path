@@ -1,0 +1,50 @@
+html {
+  height: 100%; /* making the grid to fit the whole page*/
+}
+
+body {
+  /* display: grid; */
+  padding: 5px;
+  margin: 20px;
+  /* height: 100%; */
+  /* grid-template-columns: 1fr 3fr;
+  grid-template-rows: 4.5rem auto 4.5rem;
+  row-gap: 5px;
+  column-gap: 5px; */
+}
+
+header {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+}
+
+main {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  background: red;
+  color: white;
+  /* grid-column-start: 2;
+  grid-column-end: 3; optional as default is one span */
+}
+
+aside {
+  text-align: center;
+  background-color: green;
+  color: white;
+  /* grid-column-start: 1;
+  grid-column-end: 2; /* optional as default is one span 
+  grid-row-start: 2; */
+}
+
+footer {
+  text-align: center;
+  background-color: purple;
+  color: white;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+}

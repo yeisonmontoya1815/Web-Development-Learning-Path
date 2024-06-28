@@ -1,0 +1,22 @@
+.item {
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.item3 {
+  grid-column: 2/5;
+  /* grid-column-start: 2;
+  grid-column-end: -1; */
+}
+/*.item3 {
+  grid-column: span 3;
+  grid-row: span 3;
+} */

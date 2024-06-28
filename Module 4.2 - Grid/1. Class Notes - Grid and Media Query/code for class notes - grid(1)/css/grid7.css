@@ -1,0 +1,13 @@
+.item {
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 2fr 1fr 2fr; */
+  grid-template-columns: repeat(2, 1fr 2fr);
+  grid-gap: 2rem;
+}

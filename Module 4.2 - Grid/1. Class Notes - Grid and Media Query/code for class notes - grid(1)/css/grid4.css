@@ -1,0 +1,18 @@
+.item {
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  /* relative sizes */
+  /* fr stands for fraction of available space */
+  grid-template-columns: 1fr 1fr;
+ /* try the following 15% is the percentage of container but fr means available space */
+  /* grid-template-columns: 2fr 1fr 150px 15%; */
+  grid-template-rows: 1fr 2fr;
+  grid-gap: 20px;
+  grid-auto-flow: column;
+}

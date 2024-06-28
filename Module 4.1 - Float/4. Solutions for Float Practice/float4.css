@@ -1,0 +1,45 @@
+html {
+    background-color: grey;
+}
+body{
+    margin: auto;
+    font-size: 70px;
+    width: 840px;
+    text-align: center; 
+}
+
+div.one {
+    box-sizing: border-box;
+    height: 300px;
+    width: 100%;
+    background-color: bisque;
+    border: 3px solid;
+}
+
+div.two {
+    box-sizing: border-box;
+    height: 280px;
+    width: 280px;
+    background-color: greenyellow;
+    border: 3px solid;
+    float: left;
+}
+
+div.three {
+    box-sizing: border-box;
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border: 3px solid;
+    float: right;
+}
+
+div.four {
+    box-sizing: border-box;
+    height: 280px;
+    width: 280px;
+    background-color: red;
+    border: 3px solid;
+    clear:left;
+}
+

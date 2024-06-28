@@ -1,0 +1,70 @@
+html {
+   background-color: rgb(186, 136, 81);
+}
+
+body {
+   margin: auto;
+   width: 95%;
+   max-width: 960px;
+   min-width: 640px;
+   font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+nav.horizontalNavigation>ul>li {
+   float: left;
+   border: 1px white solid;
+   background-color: blue;
+   width: 25%;
+}
+
+nav ul {
+   list-style: none;
+ }
+
+img {
+   width: 100%;
+   display: block;
+   /* border: 2px red dashed; */
+}
+
+aside {
+   float: left;
+   /* box-sizing: border-box; */
+   width: 25%;
+   height: 630px;
+}
+
+aside>img {
+   height: 630px;
+}
+
+main {
+   float: left;
+   width: 75%;
+   height: 630px;
+}
+
+main>img {
+   height: 630px;
+}
+
+footer {
+   background-color: rgb(94, 214, 154);
+}
+
+footer>nav#locations {
+   float: left;
+   width: 40%;
+}
+
+footer>nav#company {
+   float: left;
+   width: 30%;
+   /* border: 2px red dashed; */
+}
+
+footer::after {
+   clear: both;
+   content: '';
+   display: table;
+}
