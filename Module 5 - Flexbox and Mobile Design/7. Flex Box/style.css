@@ -1,0 +1,36 @@
+/* GLOBAL STYLES */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aaa;
+  margin: 0px 50px 50px;
+}
+
+
+.container {
+    display: flex;
+    height: 90vh;
+    background-color: #f5ca3c;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Each item in the grid contains numbers */
+.item {
+  color: white;
+  padding: 2rem;
+  border: 5px solid #87b5ff;
+  border-radius: 3px;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #1c57b5;
+
+}
+
+/* .item2 {
+    height: 30%;
+} */

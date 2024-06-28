@@ -1,0 +1,78 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+a { 
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+  margin: 0;
+}
+
+/* ---- Layout Containers ---- */
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+  border: dashed blue;
+}
+
+.main-header {
+	padding: 1.5em 0;
+	background: #3acec2;
+}
+
+.main-footer { 
+	text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.wrap {
+		min-height: calc(100vh - 89px);
+	}
+
+	.container {
+		width: 70%;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
