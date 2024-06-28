@@ -3,7 +3,7 @@
 
 Welcome to the Web Development Learning path! This repository is designed to guide aspiring developers through mastering the fundamentals and advanced techniques of web development.
 
-**This repository is licensed under the MIT License. See the LICENSE file for more information.**
+This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
 ## Introduction
 Embark on a comprehensive journey into web development, where you'll explore everything from the essentials of HTML and CSS to dynamic JavaScript applications. This curated collection of resources is structured to facilitate your learning process, ensuring you build a solid foundation and progress confidently.
