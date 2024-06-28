@@ -1,0 +1,28 @@
+* {
+}
+
+body {
+  background-color: rosybrown;
+}
+
+.meat {
+}
+
+#ingredients {
+}
+
+#intro img {
+}
+
+header, footer, main, div {
+  background-color: white;
+  border: solid black 1px;
+}
+
+a {
+  color: brown;
+}
+
+
+
+

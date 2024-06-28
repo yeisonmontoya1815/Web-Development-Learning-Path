@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(31, 90, 218);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+a {
+    color: rgb(242, 144, 46); 
+}
+img {
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+li {
+    margin-left: 50px;
+    line-height: 200%;
+}  
