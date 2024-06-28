@@ -1,13 +1,7 @@
 # Web Development Learning Path
 
 Welcome to the Web Development Learning path! This repository is designed to guide aspiring developers through mastering the fundamentals and advanced techniques of web development.
-
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
-
-📌 **Find me!**
-* [Linkedin](https://www.linkedin.com/in/yeisonmontoya/)
-* [Github](https://github.com/yeisonmontoya1815)
-
+[External Resources](./Library.html)
 
 ## Introduction
 Embark on a comprehensive journey into web development, where you'll explore everything from the essentials of HTML and CSS to dynamic JavaScript applications. This curated collection of resources is structured to facilitate your learning process, ensuring you build a solid foundation and progress confidently.
@@ -30,3 +24,11 @@ We extend our sincere thanks to Douglas College Professors and PDD in Informatio
 **Practical Examples:** Explore hands-on examples that reinforce concepts and showcase real-world applications.
 Accessibility Best Practices: Learn how to design websites that are inclusive and accessible to all users.
 Valuable References: Access curated references and additional resources to deepen your understanding and expand your skills.
+
+
+
+This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
+
+📌 **Find me!**
+* [Linkedin](https://www.linkedin.com/in/yeisonmontoya/)
+* [Github](https://github.com/yeisonmontoya1815)
