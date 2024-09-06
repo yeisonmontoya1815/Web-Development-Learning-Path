@@ -18,8 +18,6 @@
             background-color: #1b1b1b;
             color: #eaeaea;
             line-height: 1.6;
-            margin: 0;
-            padding: 0;
         }
 
         /* Header style */
@@ -85,6 +83,16 @@
             color: #b0b0b0;
         }
 
+        a {
+            color: #0dcaf0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #00ffcc;
+        }
+
         /* Acknowledgements and features */
         section h2 {
             margin-top: 40px;
@@ -117,8 +125,7 @@
             font-size: 1.1rem;
         }
 
-        /* Button-style links */
-        footer a.button {
+        footer .button {
             display: inline-block;
             background-color: #0dcaf0;
             color: #121212;
@@ -127,7 +134,7 @@
             transition: background-color 0.3s ease, color 0.3s ease;
         }
 
-        footer a.button:hover {
+        footer .button:hover {
             background-color: #0bbbd1;
             color: #fff;
         }
@@ -159,92 +166,89 @@
 
     <div class="container">
         <section>
-            <h2>Welcome to my Web Development Learning Path!</h2>
-            <p>This repository is designed to guide aspiring developers through mastering the fundamentals and advanced
-                techniques of web development.</p>
+            <h2>Welcome to My Web Development Learning Path!</h2>
+            <p>This curated path is designed for aspiring developers and anyone looking to build strong web development
+                skills, covering everything from HTML basics to advanced JavaScript techniques.</p>
         </section>
 
         <section>
             <h2>Introduction</h2>
-            <p>Embark on a comprehensive journey into web development, where you'll explore everything from the
-                essentials of HTML and CSS to dynamic JavaScript applications. This curated collection of resources is
-                structured to facilitate your learning process, ensuring you build a solid foundation and progress
-                confidently.</p>
+            <p>Embark on a comprehensive journey where you will learn to create interactive, responsive websites. Each
+                module is crafted with practical examples and hands-on projects to solidify your understanding.</p>
+
+            <p>Start your learning now by visiting <a
+                    href="https://github.com/yeisonmontoya1815/Web-Development-Learning-Path/tree/main"
+                    target="_blank"><strong>My Repository</strong></a> on GitHub!</p>
         </section>
 
         <section>
-            <h2>Learning Path</h2>
+            <h2>Learning Path Overview</h2>
             <ul>
                 <li>
                     <h3>HTML Basics</h3>
-                    <p>Start with the building blocks of the web: HTML. Learn how to structure content, create forms,
-                        and optimize for accessibility.</p>
-                    <strong>Modules 1 - 2</strong>
-
+                    <p>Discover the building blocks of the web, including how to structure pages, create forms, and
+                        optimize for accessibility.</p>
+                    <a href="https://github.com/yeisonmontoya1815/Web-Development-Learning-Path/tree/main/Module%201%20-%20Intro%20HTML-CSS"
+                        target="_blank"><strong>Modules 1 - 2</strong></a>
                 </li>
                 <li>
                     <h3>CSS Styling Techniques</h3>
-                    <p>Master the art of CSS for designing beautiful and responsive web pages. Dive into layout
-                        techniques, styling best practices, and CSS frameworks.</p>
-                    <strong>Modules 3 - 6</strong>
-
+                    <p>Master CSS to build visually stunning, responsive layouts using both modern CSS techniques and
+                        frameworks.</p>
+                    <a href="https://github.com/yeisonmontoya1815/Web-Development-Learning-Path/tree/main/Module%203%20-%20CSS"
+                        target="_blank"><strong>Modules 3 - 6</strong></a>
                 </li>
-
                 <li>
                     <h3>Forms</h3>
-                    <p>Learn how to create and manage forms effectively. Understand how to validate
-                        inputs, and dynamically update form content, making your website more helpful.</p>
-                    <strong>Module 7</strong>
-
+                    <p>Learn to create, validate, and manage forms, making your website more interactive and
+                        user-friendly.</p>
+                    <a href="https://github.com/yeisonmontoya1815/Web-Development-Learning-Path/tree/main/Module%207%20-%20Forms%20-%20Beginning%20JavaScript"
+                        target="_blank"><strong>Module 7</strong></a>
                 </li>
-
-
                 <li>
                     <h3>JavaScript Essentials</h3>
-                    <p>Unlock the power of JavaScript to add interactivity and dynamic functionality to your websites.
-                        From DOM manipulation to event handling, discover essential techniques.</p>
-                    <strong>Modules 8 -11</strong>
-
+                    <p>From DOM manipulation to event handling, dive deep into JavaScript and make your websites dynamic
+                        and interactive.</p>
+                    <a href="https://github.com/yeisonmontoya1815/Web-Development-Learning-Path/tree/main/module%208%20-%20JS%20Tutorail"
+                        target="_blank"><strong>Modules 8 - 11</strong></a>
                 </li>
-
                 <li>
                     <h3>Library</h3>
-                    <p>Search for more extra resources in the web through our Library webpage.</p>
+                    <p>Explore additional resources to expand your knowledge through our library of extra materials.</p>
                     <a href="Library.html">LIBRARY</a>
-
                 </li>
             </ul>
         </section>
 
         <section>
             <h2>Acknowledgments</h2>
-            <p>We extend our sincere thanks to Douglas College Professors and PDD in Information and Communication
-                Technology for their invaluable contributions to this learning sequence.</p>
+            <p>Special thanks to the Douglas College Professors and PDD in Information and Communication Technology for
+                their guidance and support in the development of this learning path.</p>
         </section>
 
         <section>
             <h2>Features</h2>
             <ul>
-                <li><strong>Practical Examples:</strong> Explore hands-on examples that reinforce concepts and showcase
-                    real-world applications.</li>
-                <li><strong>Accessibility Best Practices:</strong> Learn how to design websites that are inclusive and
-                    accessible to all users.</li>
-                <li><strong>Valuable References:</strong> Access curated references and additional resources to deepen
-                    your understanding and expand your skills.</li>
+                <li><strong>Hands-on Projects:</strong> Apply what you learn through real-world examples and exercises.
+                </li>
+                <li><strong>Accessibility Practices:</strong> Build websites that are inclusive and accessible to all
+                    users.</li>
+                <li><strong>Comprehensive Resources:</strong> Access additional references to further deepen your
+                    skills.</li>
             </ul>
         </section>
     </div>
 
     <footer>
         <p>This repository is licensed under the MIT License. See the LICENSE file for more information.</p>
-        <p>📌 Find me on:
-            <a href="https://www.linkedin.com/in/yeisonmontoya">LinkedIn</a> |
-            <a href="https://github.com/yeisonmontoya1815">GitHub</a>
+        <p>📌 Connect with me on:
+            <a href="https://www.linkedin.com/in/yeisonmontoya" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/yeisonmontoya1815" target="_blank">GitHub</a>
         </p>
-        <p>Best Wishes,<br>Yeison</p>
+        <p>Best Wishes,<br>Yeison Montoya</p>
 
         <div style="background-color: #001f3f; padding: 20px 0; color: #ffffff; text-align: center;">
-            <p style="margin: 0;">&copy; Web Page Author: Yeison Montoya, 2024. All Rights Reserved.</p>
+            <p style="margin: 0;">&copy; 2024 Yeison Montoya. All Rights Reserved.</p>
         </div>
     </footer>
 
