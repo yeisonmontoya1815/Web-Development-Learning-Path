@@ -1,7 +1,7 @@
 # Web Development Learning Path
 
 Welcome to my Web Development Learning path! This repository is designed to guide aspiring developers through mastering the fundamentals and advanced techniques of web development.
-[Main Page](./index.html)
+[Main Page](https://yeisonmontoya1815.github.io/Web-Development-Learning-Path/)
 
 ## Introduction
 Embark on a comprehensive journey into web development, where you'll explore everything from the essentials of HTML and CSS to dynamic JavaScript applications. This curated collection of resources is structured to facilitate your learning process, ensuring you build a solid foundation and progress confidently.
